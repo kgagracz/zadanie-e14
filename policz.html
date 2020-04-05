@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remonty mieszkań</title>
+    <link rel="stylesheet" href="css/remont.css">
+</head>
+<body>
+    <nav class="main-nav">
+            <section class="main-nav__item"><img src="" alt="" class="logo"></section>
+            <section class="main-nav__item"><a href="./index.html" class="nav-link">o firmie</a></section>
+            <section class="main-nav__item"><a href="./adres.html" class="nav-link">adres</a></section>
+            <section class="main-nav__item"><a href="./policz.html" class="nav-link">policz</a></section>
+            <section class="main-nav__item"><a href="http://www.jakremontowac.pl/" class="nav-link" target="_blank">linki</a></section>
+    </nav>
+    <section id="main">
+        <h1>Kafelkowanie łazienki</h1>
+        <p class="title">powierzchnia w m2:</p>
+        <input type="number" id="ilosc"><br>
+        <input type="radio" name="typeofservice" id="first"><label for="first">Płytki 20 x 20 cm</label><br>
+        <input type="radio" name="typeofservice" id="second"><label for="second">Płytki 25 x 12 cm</label><br>
+        <button id="activate">PRZELICZ</button>
+    </section>
+
+    <script src="js/policz.js"></script>
+</body>
+</html>

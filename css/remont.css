@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav {
+    display: flex;
+}
+
+
+.main-nav__item {
+    background-color: rgb(57, 180, 107);
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    width: 20%;
+    height: 220px;
+}
+
+.nav-link {
+    color: white;
+    text-transform: uppercase;
+}
+
+#main {
+    height: 300px;
+    padding: 10px;
+}
+
+h1 {
+    color: rgb(27, 163, 82);
+}
+
+button {
+    border: 1px solid green;
+    color: white;
+    background-color: green;
+    font-weight: bold;
+    padding: 15px;
+}
